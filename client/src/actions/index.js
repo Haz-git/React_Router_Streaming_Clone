@@ -24,9 +24,10 @@ export const signOut = () => {
 
 
 //Creating action creator responsible for creating POST request using axios
-
-export const createStream = formValues => async dispatch => {
-    const response = await streams.post('/streams', formValues);
+//When posting stream, destructure out userID from google OAuth for verification whether the stream was created by yourself. This is to enable edit/delete of your own stream but NOT other people's streams.
+export const createStream = formValues => async (dispatch, getState) => {
+    const { userId } = getState().auth;
+    const response = await streams.post('/streams', {...formValues, userId});
 
     dispatch({
         type: CREATE_STREAM,

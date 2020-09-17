@@ -9,6 +9,22 @@
       "title": "Another Stream",
       "description": "Here's yet another stream",
       "id": 2
+    },
+    {
+      "title": "First Stream",
+      "description": "Frist Stream",
+      "id": 3
+    },
+    {
+      "title": "Second Stream",
+      "description": "asdfasdfj",
+      "id": 4
+    },
+    {
+      "title": "I created this stream",
+      "description": "This was made by me",
+      "userId": "115275023105372049535",
+      "id": 5
     }
   ]
 }
