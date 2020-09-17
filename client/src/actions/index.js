@@ -1,4 +1,5 @@
 import streams from '../apis/streams';
+import history from '../history';
 import {
     SIGN_IN, 
     SIGN_OUT,
@@ -33,6 +34,11 @@ export const createStream = formValues => async (dispatch, getState) => {
         type: CREATE_STREAM,
         payload: response.data
     })
+
+    //Insert Programmatic Navigation to show creating a stream was successful. Get User back to the root route. We need to access the history object 
+
+    history.push('/');
+
 }
 
 //Action Creator: fetch list of streams
