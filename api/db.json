@@ -1,36 +1,25 @@
 {
   "streams": [
     {
-      "title": "asdf",
-      "description": "asdf",
+      "title": "JSX Gaming Session",
+      "description": "Enjoy Gaming With JSX!",
       "id": 1
     },
     {
-      "title": "Another Stream",
-      "description": "Here's yet another stream",
+      "title": "The C# Massacre",
+      "description": "...and other fun and spooky movies",
       "id": 2
     },
     {
-      "title": "First Stream",
-      "description": "Frist Stream",
+      "title": "The HTML Coder",
+      "description": "Watch Me Make Things Without Design...",
       "id": 3
     },
     {
-      "title": "Second Stream",
-      "description": "asdfasdfj",
+      "title": "My Stream",
+      "description": "Watch Me!",
+      "userId": "115275023105372049535",
       "id": 4
-    },
-    {
-      "title": "I created this stream",
-      "description": "This was made by me",
-      "userId": "115275023105372049535",
-      "id": 5
-    },
-    {
-      "title": "Prgram",
-      "description": "asdf",
-      "userId": "115275023105372049535",
-      "id": 6
     }
   ]
 }
