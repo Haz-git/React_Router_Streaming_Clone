@@ -16,9 +16,8 @@
       "id": 3
     },
     {
-      "title": "My Stream",
-      "description": "Watch Me!",
-      "userId": "115275023105372049535",
+      "title": "Stream Edit Change Test",
+      "description": "Test!",
       "id": 4
     },
     {
@@ -32,6 +31,12 @@
       "description": "Which system should you use?",
       "userId": "115275023105372049535",
       "id": 6
+    },
+    {
+      "title": "Patch Request2",
+      "description": "Test",
+      "userId": "115275023105372049535",
+      "id": 7
     }
   ]
 }
